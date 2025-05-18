@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  python-api:
+    image: python:3.11
+    working_dir: /app
+    volumes:
+      - ./your-python-api:/app
+    command: sh -c "pip install -r requirements.txt && python main.py"
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=development
+    restart: unless-stopped

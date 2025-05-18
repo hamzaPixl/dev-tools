@@ -1,0 +1,45 @@
+# ~/.bash_profile for macOS Devs
+# Loads shared aliases, sets up prompt, and configures recommended tools
+
+# Source shared aliases and functions
+if [ -f "$HOME/dev-tools/shell/aliases.sh" ]; then
+  source "$HOME/dev-tools/shell/aliases.sh"
+fi
+
+# Modern prompt (minimal, fast)
+export PS1="\[\e[36m\]\u@\h\[\e[m\] \[\e[33m\]\w\[\e[m\] $ "
+
+# Homebrew in PATH
+export PATH="/opt/homebrew/bin:$PATH"
+
+# Enable fzf key bindings if installed
+if [ -f /opt/homebrew/opt/fzf/shell/key-bindings.bash ]; then
+  source /opt/homebrew/opt/fzf/shell/key-bindings.bash
+fi
+
+# Enable bat as man pager if installed
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+# macOS clipboard helpers
+alias pbcopy='pbcopy'
+alias pbpaste='pbpaste'
+
+# Use exa as ls if available
+if command -v exa >/dev/null 2>&1; then
+  alias ls='exa --color=auto --group-directories-first'
+fi
+
+# Use fd as find if available
+if command -v fd >/dev/null 2>&1; then
+  alias find='fd'
+fi
+
+# Use tldr if available
+alias help='tldr'
+
+# Node, Python, Docker helpers
+alias serve='npx serve'
+alias pyserve='python3 -m http.server'
+alias dps='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"'
+
+# ...add more as needed...

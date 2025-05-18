@@ -1,0 +1,8 @@
+#!/bin/sh
+# Example: Enforce commit message format (conventional commits)
+commit_msg=$(cat "$1")
+pattern="^(feat|fix|docs|style|refactor|test|chore)\([a-z0-9\-]+\)?: .{1,50}"
+if ! echo "$commit_msg" | grep -Eq "$pattern"; then
+  echo "\033[31mERROR: Commit message must follow Conventional Commits (e.g. feat(core): add new feature)\033[0m"
+  exit 1
+fi

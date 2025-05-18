@@ -25,12 +25,54 @@ Includes:
 
 ---
 
+### `/git`
+
+A curated collection of Git configurations and utilities for:
+
+- Simplified global `.gitignore` management
+- Custom Git aliases for common commands
+- Handy Git hooks for automated tasks
+- A configuration script to set up your Git environment quickly
+
+🔗 [View Git setup](./git/README.md)
+
+Includes:
+
+- `gitconfig` – global Git configurations
+- `gitignore` – template for global .gitignore
+- `hooks/` – directory for custom Git hooks
+- `README.md` – detailed explanation of the configuration
+
+---
+
+### `/docker`
+
+Ready-to-use Docker Compose files for databases, vector stores, and more.
+
+🔗 [View Docker setup](./docker/README.md)
+
+Includes:
+
+- `docker-compose.yml` – default Docker Compose configuration
+- `README.md` – detailed explanation of the configuration
+
+---
+
+### `/shell`
+
+Zsh and Bash profile configs for macOS, with aliases, functions, and a one-step install for modern CLI tools.
+
+🔗 [View Shell setup](./shell/README.md)
+
+Includes:
+
+- `README.md` – detailed explanation of the configuration
+
+---
+
 ## 📌 Roadmap (coming soon)
 
 - `/templates` – base project boilerplates (Node, TypeScript, NestJS, etc.)
-- `/scripts` – shell and Node.js CLI utilities
-- `/git` – recommended `.gitignore`, hooks, and aliases
-- `/docker` – dev-friendly Docker setups
 
 ---
 

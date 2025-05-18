@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  limited-app:
+    image: node:20
+    command: node -e "setInterval(()=>console.log('Running...'), 1000)"
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: '0.50'
+        reservations:
+          memory: 128M
+    mem_limit: 256m
+    cpus: 0.5

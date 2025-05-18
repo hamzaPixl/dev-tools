@@ -1,0 +1,12 @@
+#!/bin/sh
+# Example: Run lint and formatting before commit
+npm run lint
+if [ $? -ne 0 ]; then
+  echo "\033[31mERROR: Lint failed. Please fix errors before committing.\033[0m"
+  exit 1
+fi
+npm run format:check
+if [ $? -ne 0 ]; then
+  echo "\033[31mERROR: Formatting issues found. Please run npm run format.\033[0m"
+  exit 1
+fi

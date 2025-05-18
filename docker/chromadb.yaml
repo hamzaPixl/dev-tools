@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  chroma:
+    image: chromadb/chroma:latest
+    restart: always
+    ports:
+      - "8000:8000"
