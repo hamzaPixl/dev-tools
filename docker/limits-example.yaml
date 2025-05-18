@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 services:
   limited-app:
     image: node:20
@@ -7,7 +7,7 @@ services:
       resources:
         limits:
           memory: 256M
-          cpus: '0.50'
+          cpus: "0.50"
         reservations:
           memory: 128M
     mem_limit: 256m
