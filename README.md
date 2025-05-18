@@ -70,6 +70,54 @@ Includes:
 
 ---
 
+### `/eslint-frontend`
+
+Modern ESLint config for TypeScript frontend (Next.js, React, Tailwind). Includes flat config, plugins, and example package.json. See [`eslint/README.md`](./eslint/README.md) for usage.
+
+🔗 [View ESLint setup](./eslint/README.md)
+
+Includes:
+
+- `README.md` – detailed explanation of the configuration
+
+---
+
+### `/eslint-backend`
+
+Modern ESLint config for TypeScript backend (Node.js). Includes flat config, plugins, and example package.json. See [`eslint-backend/README.md`](./eslint-backend/README.md) for usage.
+
+🔗 [View ESLint Backend setup](./eslint-backend/README.md)
+
+Includes:
+
+- `README.md` – detailed explanation of the configuration
+
+---
+
+### `/prettier-frontend`
+
+✨ Prettier config for TypeScript frontend (Next.js, React, Tailwind). Includes config, ignore, and example package.json. See [`prettier-frontend/README.md`](./prettier-frontend/README.md) for usage.
+
+🔗 [View Prettier Frontend setup](./prettier-frontend/README.md)
+
+Includes:
+
+- `README.md` – detailed explanation of the configuration
+
+---
+
+### `/prettier-backend`
+
+✨ Prettier config for TypeScript backend (Node.js). Includes config, ignore, and example package.json. See [`prettier-backend/README.md`](./prettier-backend/README.md) for usage.
+
+🔗 [View Prettier Backend setup](./prettier-backend/README.md)
+
+Includes:
+
+- `README.md` – detailed explanation of the configuration
+
+---
+
 ## 📌 Roadmap (coming soon)
 
 - `/templates` – base project boilerplates (Node, TypeScript, NestJS, etc.)

@@ -1,0 +1,7 @@
+# Ignore build output and dependencies
+.next/
+dist/
+build/
+node_modules/
+out/
+coverage/
