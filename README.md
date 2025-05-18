@@ -118,6 +118,19 @@ Includes:
 
 ---
 
+### `/editorconfig`
+
+📝 Universal EditorConfig for consistent coding style across editors and IDEs. See [`editorconfig/README.md`](./editorconfig/README.md) for usage and details.
+
+🔗 [View EditorConfig setup](./editorconfig/README.md)
+
+Includes:
+
+- `README.md` – detailed explanation of the configuration
+- `.editorconfig` – ready-to-use config file
+
+---
+
 ## 📌 Roadmap (coming soon)
 
 - `/templates` – base project boilerplates (Node, TypeScript, NestJS, etc.)
