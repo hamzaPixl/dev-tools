@@ -1,0 +1,11 @@
+# Example Helm Chart: values.yaml
+replicaCount: 2
+image:
+  repository: myrepo/my-service
+  tag: latest
+service:
+  type: ClusterIP
+  port: 80
+ingress:
+  enabled: true
+  host: my-service.example.com

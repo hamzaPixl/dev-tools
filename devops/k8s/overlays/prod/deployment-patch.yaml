@@ -1,0 +1,12 @@
+# Example: Prod Overlay (patches base for prod environment)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-service
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+        - name: my-service
+          image: myrepo/my-service:prod

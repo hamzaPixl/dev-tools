@@ -143,6 +143,25 @@ Includes:
 
 ---
 
+### `/devops`
+
+☸️ Kubernetes & DevOps toolchain for microservices and multi-cloud. Includes modular K8s manifests, Helm charts, Terraform for GCP/AWS/Azure, GitOps (ArgoCD/Flux), and automation scripts. See [`devops/README.md`](./devops/README.md) for structure and usage.
+
+🔗 [View DevOps/Kubernetes setup](./devops/README.md)
+
+Includes:
+
+- `README.md` – structure, quick start, and overview
+- `k8s/` – base manifests, overlays, ingress
+- `helm/` – example Helm chart
+- `scripts/` – build, deploy, secrets automation
+- `terraform/` – GCP, AWS, Azure infra modules
+- `argocd/` – ArgoCD app manifest
+- `flux/` – FluxCD kustomization
+- `tools.md` – tool descriptions
+
+---
+
 ## 📌 Roadmap (coming soon)
 
 - `/templates` – base project boilerplates (Node, TypeScript, NestJS, etc.)
