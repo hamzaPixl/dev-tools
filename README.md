@@ -131,6 +131,18 @@ Includes:
 
 ---
 
+### `/ai`
+
+🤖 AI prompts and workflow templates for developers. Includes ready-to-use prompts for project scaffolding, code review, documentation, and .env examples for OpenAI, Azure, and Google AI APIs. See [`ai/README.md`](./ai/README.md) for usage.
+
+🔗 [View AI Prompts & Tools](./ai/README.md)
+
+Includes:
+
+- `README.md` – prompt library, usage tips, and environment variable examples
+
+---
+
 ## 📌 Roadmap (coming soon)
 
 - `/templates` – base project boilerplates (Node, TypeScript, NestJS, etc.)
