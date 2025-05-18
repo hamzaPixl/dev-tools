@@ -1,0 +1,136 @@
+{
+  // Git
+  "git.autofetch": true,
+  "git.ignoreLimitWarning": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+
+  // File Handling
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "*.tpl": "html",
+    "*.config": "yaml"
+  },
+
+  // Tabs & Editor
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "editor.guides.bracketPairs": "active",
+
+  // TypeScript & JavaScript
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "workbench.colorCustomizations": {
+    "editorWarning.border": "#ffcb6b",
+    "editorInfo.border": "#82aaff",
+
+    "editorGutter.modifiedBackground": "#89DDFF",
+    "editorGutter.addedBackground": "#C3E88D",
+    "editorGutter.deletedBackground": "#FF5370",
+
+    // Underlines (errors, warnings, info)
+    "editorError.background": "#ff53700f",
+    "editorWarning.background": "#ffcb6b0f",
+    "editorInfo.background": "#82aaff0f",
+
+    // Squiggles and underlines (make them more visible)
+    "editorError.foreground": "#ff5370",
+    "editorWarning.foreground": "#ffcb6b",
+    "editorInfo.foreground": "#82aaff",
+
+    // Markers in overview ruler
+    "editorOverviewRuler.errorForeground": "#ff5370",
+    "editorOverviewRuler.warningForeground": "#ffcb6b",
+    "editorOverviewRuler.infoForeground": "#82aaff"
+  },
+
+  // Explorer
+  "explorer.confirmDragAndDrop": false,
+
+  // Tabs & Layout
+  "window.nativeTabs": true,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editorAssociations": {
+    "*.vsix": "default"
+  },
+
+  // UX
+  "workbench.colorTheme": "One Dark Pro Monokai Darker",
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.renderWhitespace": "all",
+  "editor.cursorBlinking": "phase",
+
+  // Extensions
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "redhat.telemetry.enabled": true,
+
+  // Security
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // XML
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+
+  // Copilot
+  "github.copilot.nextEditSuggestions.enabled": true,
+
+  // Diff editor
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // Jest Runner
+  "jestrunner.codeLensSelector": "**/*{.,-}{test,spec}.{js,jsx,ts,tsx}",
+  "jestrunner.configPath": "./jest.config.ts",
+
+  // TODO Highlight
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "TODO:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "FIXME:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "@TODO:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    }
+  ]
+}
