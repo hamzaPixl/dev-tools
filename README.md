@@ -6,19 +6,19 @@ Welcome to **Dev Tools** — a personal, modular toolbox for modern developers. 
 
 ## 📚 Table of Contents
 
-| Section                | Description                                      |
-|------------------------|--------------------------------------------------|
-| [🖥️ VS Code](#️-vs-code)           | Editor settings, themes, and extensions         |
-| [🔀 Git](#git)                  | Aliases, hooks, and CI/CD workflows            |
-| [🐳 Docker](#docker)             | Compose files for databases, apps, and more     |
-| [💻 Shell](#shell)               | Zsh/Bash profiles, aliases, CLI tools           |
+| Section                                | Description                                      |
+| -------------------------------------- | ------------------------------------------------ |
+| [🖥️ VS Code](#️-vs-code)               | Editor settings, themes, and extensions          |
+| [🔀 Git](#git)                         | Aliases, hooks, and CI/CD workflows              |
+| [🐳 Docker](#docker)                   | Compose files for databases, apps, and more      |
+| [💻 Shell](#shell)                     | Zsh/Bash profiles, aliases, CLI tools            |
 | [🎨 ESLint Frontend](#eslint-frontend) | Lint config for Next.js, React, Tailwind         |
 | [🛠️ ESLint Backend](#eslint-backend)   | Lint config for Node.js, TypeScript backend      |
-| [✨ Prettier FE](#prettier-frontend)   | Prettier config for frontend projects           |
-| [✨ Prettier BE](#prettier-backend)    | Prettier config for backend projects            |
-| [📝 EditorConfig](#editorconfig)        | Universal code style for all editors            |
-| [🤖 AI Prompts](#ai)                 | Prompt library for code, docs, and scaffolding  |
-| [☸️ DevOps](#devops)              | Kubernetes, Terraform, GitOps, scripts, and more|
+| [✨ Prettier FE](#prettier-frontend)   | Prettier config for frontend projects            |
+| [✨ Prettier BE](#prettier-backend)    | Prettier config for backend projects             |
+| [📝 EditorConfig](#editorconfig)       | Universal code style for all editors             |
+| [🤖 AI Prompts](#ai)                   | Prompt library for code, docs, and scaffolding   |
+| [☸️ DevOps](#devops)                   | Kubernetes, Terraform, GitOps, scripts, and more |
 
 ---
 

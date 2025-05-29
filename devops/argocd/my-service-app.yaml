@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/your-org/your-repo.git'
+    repoURL: "https://github.com/your-org/your-repo.git"
     targetRevision: HEAD
     path: devops/k8s/overlays/dev
   destination:
-    server: 'https://kubernetes.default.svc'
+    server: "https://kubernetes.default.svc"
     namespace: default
   syncPolicy:
     automated:

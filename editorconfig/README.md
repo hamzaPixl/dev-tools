@@ -3,6 +3,7 @@
 This directory provides a universal `.editorconfig` file to help maintain consistent coding styles between different editors and IDEs across your projects.
 
 ## What's Included
+
 - `.editorconfig` – Standard config for indentation, line endings, charset, and more
 - Example usage and integration tips
 
@@ -15,6 +16,7 @@ This directory provides a universal `.editorconfig` file to help maintain consis
 ---
 
 ## Example Settings
+
 - 2 spaces for indentation (JS, TS, JSON, YAML, CSS, etc.)
 - 4 spaces for Python
 - LF line endings
@@ -24,6 +26,7 @@ This directory provides a universal `.editorconfig` file to help maintain consis
 ---
 
 ## Links
+
 - [Root Dev Tools README](../README.md)
 - [EditorConfig docs](https://editorconfig.org/)
 
